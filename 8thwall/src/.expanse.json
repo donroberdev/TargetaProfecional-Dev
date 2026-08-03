@@ -32,9 +32,13 @@
       "camera": {
         "type": "perspective",
         "xr": {
-          "desktop": "3D",
-          "xrCameraType": "3dOnly",
-          "headset": "disabled"
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR",
+          "world": {
+            "disableWorldTracking": true
+          }
         }
       },
       "components": {},
@@ -90,18 +94,51 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
     },
-    "a861e1ee-64ea-4945-b04f-65b8ef8914a3": {
-      "id": "a861e1ee-64ea-4945-b04f-65b8ef8914a3",
+    "a833bb7d-c29b-4fa5-9b26-195282ad9735": {
+      "id": "a833bb7d-c29b-4fa5-9b26-195282ad9735",
       "position": [
-        0.04647323519783142,
-        0.1805598862989446,
-        0.023608895090451387
+        0.024774485576780615,
+        0.19225213520835643,
+        4.2688549408333206e-17
       ],
       "rotation": [
+        0.7071067811865475,
+        8.659560562354932e-17,
+        8.65956056235493e-17,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.21712749215560892,
+        0.21712749215560886,
+        0.21712749215560886
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "94a286df-6499-4558-ba83-b03b44514a6b",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/AvatarFinal.glb"
+        },
+        "animationClip": "Dance",
+        "loop": true
+      },
+      "name": "AvatarFinal.glb",
+      "order": 3.9728116172822125
+    },
+    "94a286df-6499-4558-ba83-b03b44514a6b": {
+      "id": "94a286df-6499-4558-ba83-b03b44514a6b",
+      "position": [
         0,
         0,
-        0,
-        1
+        0
+      ],
+      "rotation": [
+        0.7071067811865476,
+        8.659560562354933e-17,
+        8.659560562354933e-17,
+        -0.7071067811865475
       ],
       "scale": [
         1,
@@ -112,16 +149,11 @@
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/model.glb"
-        },
-        "animationClip": "",
-        "loop": true
+      "name": "Objetivo de la imagen",
+      "imageTarget": {
+        "name": "TargetProfe"
       },
-      "name": "model.glb",
-      "order": 2.8663594744681866
+      "order": 5.351673103589295
     }
   },
   "spaces": {
